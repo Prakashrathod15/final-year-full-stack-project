@@ -1,0 +1,194 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.container
+{
+    width: 70vw;
+    height: 83vh;
+    background-color:white;
+    border-radius: 7px;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border: 0.2px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+
+}
+
+.box1{  
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    
+    
+}
+
+.box2{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+
+#i
+{
+    height: 330px;
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+.innerbox{
+    
+    height: 70%;
+    width: 100%;
+    margin-top: 10%;
+    display: block;
+    background-color: white;
+}
+
+#userName{
+    
+display: inline;
+height: 30px;
+width: 100%;
+margin-bottom: 15px;
+margin-top: 5px;
+border: none;
+outline: none;
+border-bottom: 2px solid #ccc;
+width: 400px;
+background-color: white;
+font-size: 20px;
+}
+#user{
+    height: 20px;
+    margin-right: -5px;
+    display: inline;
+    background-color: white;
+    
+
+}
+
+#passWord{
+    
+  display: inline;
+  height: 30px;
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+  width: 400px;
+  background-color: white;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+#pass{
+    height: 20px;
+    margin-right: -5px;
+    display: inline;
+    background-color: white;
+    
+
+}
+
+#sing{
+    margin-top: 60px;
+    background-color: white;
+    font-size: 60px;
+
+}
+
+#rem{
+    height: 100px;
+    width: 300px;
+    display: inline;
+    font-size: 25px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+#ch{
+    height: 17px;
+    width: 17px;
+}
+
+.btn{
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 5px;
+    display: block;
+    
+}
+
+#Registerpage{
+     
+   background-color: white;
+   margin-left: 30%;
+   margin-top: 30%;
+   font-size: 20px;
+  
+}
+
+#alert{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    background-color: white;
+}
+
+input[type="text"] {
+    caret-color: rgb(27, 160, 221);
+}
+
+input {
+   padding-left: 10px;
+}
+
+.cl{
+    display: block;
+    background-color: white;
+}
+
+.para{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: red;
+    font-size: 20px;
+    background-color: white;
+    display: inline;
+
+}
+
+#paraBox{
+    height: 20px;
+    width: 35vw;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+#Register{
+     
+    background-color: white;
+    font-size: 20px;
+    background-color: white;
+   
+ }
+ 

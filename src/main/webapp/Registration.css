@@ -1,0 +1,284 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.container
+{
+    width: 70vw;
+    height: 83vh;
+    background-color:white;
+    border-radius: 7px;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border: 0.2px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+
+}
+.box1{  
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    
+    
+}
+
+.box2{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+
+#i
+{
+    height: 330px;
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 70px;
+    
+}
+
+#loginpage{
+     
+    background-color: white;
+    padding-bottom: -70%;
+    margin-left: 30%;
+    margin-top: 90%;
+    font-size: 20px;
+   
+ }
+
+.innerbox{
+    
+    height: 70%;
+    width: 100%;
+    padding-left: 20%;
+    padding-top: 8%;
+    display: block;
+    background-color: white;
+}
+
+#userName{
+    
+    display: block;
+    height: 30px;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    width: 90%;
+    background-color: white;
+    font-size: 20px;
+    display: inline;
+    }
+#user{
+    height: 20px;
+    margin-right: -5px;
+    display: inline;
+    background-color: white;
+    
+
+}
+
+    #email{
+        
+        display: inline;
+        height: 30px;
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #ccc;
+        width: 90%;
+        background-color: white;
+        font-size: 20px;
+      }
+     
+      #mail{
+        height: 20px;
+        margin-right: -5px;
+        display: inline;
+        background-color: white;
+        
+    
+    }
+  
+    #courseSelection{
+    
+        display: block;
+        height: 30px;
+        width: 90%;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #ccc;
+        width: 90%;
+        background-color: white;
+        font-size: 20px;
+        display: inline;
+        }
+     
+      #courseIcon{
+        height: 20px;
+        margin-right: -5px;
+        display: inline;
+        background-color: white;
+        
+    
+    }
+
+    #passWord{
+        
+      display: inline;
+      height: 30px;
+      width: 90%;
+      margin-top: 7px;
+      margin-bottom: 10px;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid #ccc;
+      width: 90%;
+      background-color: white;    
+      font-size: 20px;
+    }
+    #pass{
+        height: 20px;
+        margin-right: -5px;
+        display: inline;
+        background-color: white;
+        
+    
+    }
+
+    #repassWord{
+        display: inline;
+        height: 30px;
+        width: 90%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #ccc;
+        width: 90%;
+        background-color: white;
+        font-size: 20px;
+        display: inline;
+      }
+
+      #repass{
+        height: 20px;
+        margin-right: -5px;
+        display: inline;
+        background-color: white;
+        
+    
+    }
+
+   
+
+      #contact{
+        
+        display: inline;
+        height: 30px;
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #ccc;
+        width: 90%;
+        background-color: white;
+        font-size: 20px;
+      }
+
+      #contact_icon{
+        height: 20px;
+        margin-right: -5px;
+        display: inline;
+        background-color: white;
+        
+    
+    }
+
+      #rem{
+        height: 100px;
+        width: 300px;
+        display: inline;
+        font-size: 20px;
+        background-color: white;
+       
+    }
+      
+#sing{
+       
+        font-size: 43px;
+        padding-left: 20%;
+        padding-top: 7%;
+        background-color: white;
+        
+    
+}
+      
+
+#ch{
+    height: 15px;
+    width: 15px;
+}
+
+.btn{
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 5px;
+    display: block;
+    
+}
+
+#Registerpage{
+     
+   background-color: white;
+   margin-left: 30%;
+   margin-top: 30%;
+   font-size: 20px;
+  
+}
+
+#emailAlert{
+    color: red;
+    font-size: 20px;
+    background-color: white;
+}
+
+#msg{
+    color: red;
+    font-size: 20px;
+    background-color: white;
+}
+
+#Alert{
+    color: red;
+    font-size: 20px;
+    background-color: white;
+}
+      
+#contactAlert{
+    color: red;
+    font-size: 20px;
+    background-color: white;
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing in</title>
+    <link rel="stylesheet" href="firstRegister.css">
+</head>
+<body>
+
+    <div class="container">
+             <div class="box1">
+                  
+                <img  id="i"  src="signin-image.jpg" alt="Gilt" >
+                <a id="Registerpage" href="Registration.html">Create an account</a>
+
+             </div>
+             <div class="box2">
+                <h1 id="sing"> Sign in </h1>
+                <form action="Registration.jsp" method="post">  
+                    <div class="innerbox">
+                     <img id="user"  src="user-solid.svg">
+                     <input id="userName" type="text" placeholder=" Your Name" name="userName" disabled><br>
+                     <div class="cl">
+                        <img id="pass"  src="lock-solid.svg">
+                        <input id="passWord" type="text"  placeholder=" Password" name=" Password"  disabled>
+                        <div id="paraBox"><p class="para">You have entered an invalid username or password</p><br>
+                                          <p class="para">first register Here <a id="Register" href="Registration.html">Create an account</a> </p>
+                        </div>
+                          <error id="alert"></error>
+                       </div>
+                     
+                     <div id="rem">
+                        <input id="ch" type="checkbox" name="remember" disabled> Remember me </label>
+                    </div>
+
+                    <button type="submit" class="btn"> Log in </button>
+                    </div>
+                </form> 
+             </div>
+    </div>         
+</body>
+</html>
